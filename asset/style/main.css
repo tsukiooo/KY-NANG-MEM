@@ -1,0 +1,111 @@
+/*========== MAIN ==========*/
+main{
+    z-index: 1;
+}
+/*========== HOME ==========*/
+.home {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+
+/* Button animate */
+@keyframes button {
+    0% {
+        box-shadow: 0 0 12px hsl(158, 89%, 43%);
+    }
+
+    50% {
+        box-shadow: 0 0 24px hsl(158, 89%, 43%);
+    }
+}
+
+/*========== ABOUT ==========*/
+
+.about section {
+
+    max-width: 100%;
+}
+
+.about-data {
+    position: relative;
+}
+
+.about-group {
+    position: relative;
+}
+.about-container {
+    row-gap: 1cm;
+    position: relative;
+    width: 90%;
+    align-items: center;
+}
+
+.about-img {
+    width: 600px;
+    height: 300px;
+    align-self:center;
+    border-radius: .5cm;
+
+}
+
+.about-card-title {
+
+    font-size: var(--h3-font-size);
+    margin-bottom: .5cm;
+}
+
+.about-card-description {
+    font-size: var(--smaller-font-size);
+}
+
+.about-title {
+    text-align: initial;
+    margin-bottom: 0.5cm;
+color: rgb(111, 200, 255);
+}
+
+.about-description {
+    margin-bottom: 0;
+
+}
+
+/*========== SẢN PHẨM ==========*/
+.gallery-container {
+    padding-top: 0.5cm,;
+    height: max-content;
+}
+
+/*========== BUTTON ==========*/
+.button {
+    display: inline-block;
+    background-color:antiquewhite;
+    color: var(--white-color);
+    padding: 0.2cm 1cm;
+    margin: 5% 45%;
+    border-radius: 20px;
+    font-size:medium;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: rgb(111, 200, 255);
+}
+
+/* Swiper */
+
+.swiper-wrapper {
+    justify-content: initial;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--text-color);
+}
+
+
+
+.swiper-pagination-bullet-active {
+    background-color: var(--first-color);
+}
+
